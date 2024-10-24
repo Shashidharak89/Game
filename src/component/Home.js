@@ -15,7 +15,7 @@ const Home = () => {
 
 
         <div className='game'>
-          <img src={myImage} alt="description" className='image-container' />
+          <a href='https://zv1y2i8p.play.gamezop.com/g/Umfd7yvMd'><img src={myImage} alt="description" className='image-container' /></a>
 
         </div>
         <div className='game'>
@@ -45,7 +45,7 @@ const Home = () => {
         </div>
 
         <div className='game'>
-   <img src={kingdom_fight} alt="description" className='image-container' />
+          <img src={kingdom_fight} alt="description" className='image-container' />
         </div>
         <div className='game'>
           <img src={slide_and_devide} alt="description" className='image-container' />
