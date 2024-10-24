@@ -1,0 +1,11 @@
+.main{
+    background-color: black;
+}
+.link-items{
+    display: flex;
+    justify-content: end;
+}
+.nav-items{
+    margin-left: 20px;
+    margin-top: 20px;
+}
