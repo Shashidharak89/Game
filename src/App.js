@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './component/Home';
 import About from './component/About';
 import './component/styles/style.css'
+import animal_connection from './component/images/coin.png';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           </div>
 
           <div className='coins'>
+            <div className='logo'><img src={animal_connection} alt="coins" className='coin-img'></img></div>
             <label>00000</label>
           </div>
         </div>

@@ -68,8 +68,8 @@
 
 /* Styles for each individual game div */
 .game {
-  width: 150px;
-  height: 130px;
+  width: 180px;
+  height: 156px;
   overflow: hidden;
   background-color: #f0f0f0;
   /* border: 1px solid #ccc; */
@@ -80,6 +80,7 @@
   text-align: center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  transition: 0.5s;
 }
 .image-container{
   width: 100%;
@@ -92,4 +93,38 @@
   transform: scale(1.1); /* Slightly increases the size on hover */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
 }
-
+@media (max-width: 1000px) {
+  .game {
+    width: 165px;
+    height: 143px;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 800px) {
+  .game {
+    width: 150px;
+    height: 130px;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 530px) {
+  .game {
+    width: 145px;
+    height: 117px;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 511px) {
+  .game {
+    width: 130px;
+    height: 104px;
+    transition: 0.5s;
+  }
+}
+@media (max-width: 466px) {
+  .game {
+    width: 115px;
+    height: 91px;
+    transition: 0.5s;
+  }
+}
