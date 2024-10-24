@@ -54,3 +54,34 @@
   background-color: #f5aad8;
   text-align: center;
 }
+/* Styles for the main game container */
+/* Styles for the main game container */
+.game-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styles for each individual game div */
+.game {
+  width: 100px;
+  height: 100px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect without moving the row */
+.game:hover {
+  transform: scale(1.1); /* Slightly increases the size on hover */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Adds a stronger shadow on hover */
+}
+
