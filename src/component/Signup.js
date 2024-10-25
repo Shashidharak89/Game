@@ -3,6 +3,8 @@ import './styles/auth.css';
 
 const Signup = ({ toggleForm }) => {
   return (
+    <div className='signup'>
+      <br/><br/>
     <div className="auth-container">
       <h2>Sign Up</h2>
       <form>
@@ -21,6 +23,7 @@ const Signup = ({ toggleForm }) => {
         <button type="submit" className="btn">Sign Up</button>
       </form>
       <p>Already have an account? <span className="link" onClick={toggleForm}>Login</span></p>
+    </div>
     </div>
   );
 };

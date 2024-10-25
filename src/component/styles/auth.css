@@ -55,7 +55,10 @@
   }
   .login-sign{
     background-color: black;
-    height: 600px;
+    height: 700px;
   }
- 
+ .signup{
+  background-color: black;
+  height: 700px;
+ }
   
