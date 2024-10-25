@@ -7,6 +7,7 @@ import Auth from './component/Auth';
 import './component/styles/style.css'
 import animal_connection from './component/images/coin.png';
 import Account from './component/Account';
+import WithdrawCoins from './component/WithdrawCoins';
 
 const App = () => {
   return (
@@ -22,7 +23,9 @@ const App = () => {
 
             <div className='coins'>
               <div className='logo'><img src={animal_connection} alt="coins" className='coin-img'></img></div>
-              <label>00000</label>
+              <Link to="/withdraw">
+                <button>000000</button>
+              </Link>
             </div>
           </div>
 
@@ -34,6 +37,7 @@ const App = () => {
           </div>
         </div>
         <Routes>
+          <Route path="/withdraw" element={<WithdrawCoins />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/Login" element={<Auth />} />
