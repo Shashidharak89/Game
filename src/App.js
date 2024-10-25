@@ -2,10 +2,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './component/Home';
-import About from './component/About';
+import AboutUs from './component/AboutUs';
 import Auth from './component/Auth';
 import './component/styles/style.css'
 import animal_connection from './component/images/coin.png';
+import Account from './component/Account';
 
 const App = () => {
   return (
@@ -29,12 +30,14 @@ const App = () => {
             <Link to="/" className='nav-items'>Home</Link>
             <Link to="/about" className='nav-items'>About</Link>
             <Link to="/Login" className='nav-items' id='login-signup'>Login/Signup</Link>
+            <Link to="/Account" className='nav-items'>Account</Link>
           </div>
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<AboutUs />} />
           <Route path="/Login" element={<Auth />} />
+          <Route path="/Account" element={<Account />} />
         </Routes>
       </Router>
     </div>
