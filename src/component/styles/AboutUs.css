@@ -5,19 +5,21 @@
     text-align: center;
     font-family: 'Candara', Arial, sans-serif;
     animation: fadeIn 1s ease-in;
+   
+    background-color: black;
     
   }
   
   .about-title {
     font-size: 2.5rem;
-    color: #333;
+    color: white;
     margin-bottom: 15px;
     animation: slideInDown 1s ease-in-out;
   }
   
   .about-description {
     font-size: 1.2rem;
-    color: #555;
+    color: white;
     line-height: 1.6;
     margin-bottom: 20px;
   }
@@ -36,13 +38,14 @@
   }
   
   .card {
-    background-color: #f9f9f9;
+    background-color: rgba(128, 128, 128, 0.389);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 200px;
     transition: transform 0.3s;
     animation: bounceIn 1s ease;
+    color: white;
   }
   
   .card:hover {
@@ -52,13 +55,13 @@
   
   .card h3 {
     font-size: 1.2rem;
-    color: #333;
+    color: white;
     margin-bottom: 10px;
   }
   
   .card p {
     font-size: 1rem;
-    color: #666;
+    color: white;
   }
   
   @keyframes fadeIn {
