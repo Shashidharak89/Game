@@ -2,7 +2,7 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f7f7f7;
+    background-color: rgba(128, 128, 128, 0.177);
     border-radius: 10px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +10,7 @@
   }
   
   h2 {
-    color: #333;
+    color: #ffffff;
     font-size: 1.8rem;
     margin-bottom: 10px;
   }
@@ -33,10 +33,11 @@
     justify-content: space-around;
     gap: 10px;
     flex-wrap: wrap;
+
   }
   
   .voucher-card {
-    background-color: #fff;
+    background-color: #2a2a22;
     padding: 15px;
     border-radius: 8px;
     width: 170px;
@@ -52,13 +53,13 @@
   
   .voucher-card h3 {
     font-size: 1.1rem;
-    color: #333;
+    color: #f8f8f8;
     margin-bottom: 5px;
   }
   
   .voucher-card p {
     font-size: 1rem;
-    color: #777;
+    color: #f6f3f3;
     margin-bottom: 10px;
   }
   
@@ -76,4 +77,33 @@
   .redeem-button:hover {
     background-color: #e65a50;
   }
-  
+  .withdraw{
+    background-color: black;
+    height: 700px;
+  }
+  @media (max-width:700px) {
+    .voucher-card {
+      width: 120px;
+
+    }
+    .voucher-card h3 {
+      font-size: 15px;
+    }
+    .voucher-card p {
+      font-size: 13px;
+    }
+    
+  }
+  @media (max-width:530px) {
+    .voucher-card {
+      width: 100px;
+
+    }
+    .voucher-card h3 {
+      font-size: 14px;
+    }
+    .voucher-card p {
+      font-size: 12px;
+    }
+    
+  }

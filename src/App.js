@@ -8,7 +8,8 @@ import './component/styles/style.css'
 import animal_connection from './component/images/coin.png';
 import Account from './component/Account';
 import WithdrawCoins from './component/WithdrawCoins';
-
+// import coins from './component/WithdrawCoins';
+const coins=999999;
 const App = () => {
   return (
     <div className='main'>
@@ -23,14 +24,14 @@ const App = () => {
 
             <div className='coins'>
               <div className='logo'><img src={animal_connection} alt="coins" className='coin-img'></img></div>
-              <Link to="/withdraw">
-                <button>000000</button>
+              <Link to="/withdraw" className='coin-click'>
+                <button>{coins}</button>
               </Link>
             </div>
           </div>
 
           <div className='link-items'>
-            <Link to="/" className='nav-items'>Home</Link>
+            <Link to="/" className='nav-items' id='home'>Home</Link>
             <Link to="/about" className='nav-items'>About</Link>
             <Link to="/Login" className='nav-items' id='login-signup'>Login/Signup</Link>
             <Link to="/Account" className='nav-items'>Account</Link>

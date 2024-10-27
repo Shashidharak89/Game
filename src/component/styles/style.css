@@ -17,12 +17,25 @@
     margin-top: 20px;
     color: aliceblue;
     margin-bottom: 10px;
+    text-decoration: none;
+    border-left: 2px solid rgb(255, 207, 17);  
+    padding-left: 10px;
+    transition: 0.5s;
+}
+#home{
+    border: none;
+}
+.nav-items:hover{
+    color: orange;
+    transition: 0.5s;
+    text-shadow: 1px 1px 3px  red;
 }
 .link-items-container{
     display: flex;
     font-family: 'Candara', Arial, sans-serif;
     /* justify-content: center; */
 }
+
 .link-items-container label {
     color: rgb(211, 92, 13);
     margin-left: 15px; 
@@ -64,4 +77,13 @@
     width: 100%; /* Make the image take the full width of the div */
     height: 100%; /* Make the image take the full height of the div */
     object-fit: cover;
+}
+.coin-click button{
+    color: rgb(255, 252, 222);
+    transition: 0.4s;
+
+}
+.coin-click button:hover{
+    color: rgb(0, 255, 4);
+    transition: 0.4s;
 }
